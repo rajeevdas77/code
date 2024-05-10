@@ -4,12 +4,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-# def test_login_with_valid_credentiasl():
-#
-#     driver = webdriver.Chrome()
-#     driver.get("https://tutorialsninja.com/demo/")
-#     driver.maximize_window()
-#     driver.implicitly_wait(10)
+def test_login_with_valid_credentiasl():
+
+    driver = webdriver.Chrome()
+    driver.get("https://tutorialsninja.com/demo/")
+    driver.maximize_window()
+    driver.implicitly_wait(10)
 #     driver.find_element(By.XPATH,"//span[normalize-space()='My Account']").click()
 #     driver.find_element(By.XPATH,"//a[normalize-space()='Login']").click()
 #     driver.find_element(By.XPATH,"//input[@id='input-email']").send_keys("amotooricap1@gmail.com")
